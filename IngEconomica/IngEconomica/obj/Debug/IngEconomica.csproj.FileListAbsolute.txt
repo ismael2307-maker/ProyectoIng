@@ -1,0 +1,12 @@
+C:\Users\DELL 5580\Desktop\Borrador\IngEconomica\IngEconomica\bin\Debug\IngEconomica.exe.config
+C:\Users\DELL 5580\Desktop\Borrador\IngEconomica\IngEconomica\bin\Debug\IngEconomica.exe
+C:\Users\DELL 5580\Desktop\Borrador\IngEconomica\IngEconomica\bin\Debug\IngEconomica.pdb
+C:\Users\DELL 5580\Desktop\Borrador\IngEconomica\IngEconomica\obj\Debug\IngEconomica.csproj.AssemblyReference.cache
+C:\Users\DELL 5580\Desktop\Borrador\IngEconomica\IngEconomica\obj\Debug\IngEconomica.Form1.resources
+C:\Users\DELL 5580\Desktop\Borrador\IngEconomica\IngEconomica\obj\Debug\IngEconomica.Properties.Resources.resources
+C:\Users\DELL 5580\Desktop\Borrador\IngEconomica\IngEconomica\obj\Debug\IngEconomica.csproj.GenerateResource.cache
+C:\Users\DELL 5580\Desktop\Borrador\IngEconomica\IngEconomica\obj\Debug\IngEconomica.csproj.CoreCompileInputs.cache
+C:\Users\DELL 5580\Desktop\Borrador\IngEconomica\IngEconomica\obj\Debug\IngEconomica.exe
+C:\Users\DELL 5580\Desktop\Borrador\IngEconomica\IngEconomica\obj\Debug\IngEconomica.pdb
+C:\Users\DELL 5580\Desktop\Borrador\IngEconomica\IngEconomica\obj\Debug\IngEconomica.Presentacion.resources
+C:\Users\DELL 5580\Desktop\Borrador\IngEconomica\IngEconomica\obj\Debug\IngEconomica.interes.resources
