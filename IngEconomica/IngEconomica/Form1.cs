@@ -50,6 +50,7 @@ namespace IngEconomica
 
         private void btnInteres_Click(object sender, EventArgs e)
         {
+            
             showSubMenu(pnlSubMenuInteres);
         }
 
@@ -61,6 +62,7 @@ namespace IngEconomica
 
         private void btnInteresSimple_Click(object sender, EventArgs e)
         {
+            AbrirFormHija(new intSimple());
             hideSubMenu();
         }
 
@@ -111,6 +113,7 @@ namespace IngEconomica
 
         private void btnAnualidades_Click(object sender, EventArgs e)
         {
+            AbrirFormHija(new Presentacion2());
             showSubMenu(pnlSubMenuAnualidades);
         }
 

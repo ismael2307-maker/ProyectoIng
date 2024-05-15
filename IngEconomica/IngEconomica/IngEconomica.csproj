@@ -58,11 +58,29 @@
     <Compile Include="interes.Designer.cs">
       <DependentUpon>interes.cs</DependentUpon>
     </Compile>
+    <Compile Include="intSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="intSimple.Designer.cs">
+      <DependentUpon>intSimple.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Presentacion.Designer.cs">
       <DependentUpon>Presentacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion2.Designer.cs">
+      <DependentUpon>Presentacion2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion3Simple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion3Simple.Designer.cs">
+      <DependentUpon>Presentacion3Simple.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,8 +90,17 @@
     <EmbeddedResource Include="interes.resx">
       <DependentUpon>interes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="intSimple.resx">
+      <DependentUpon>intSimple.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion.resx">
       <DependentUpon>Presentacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion2.resx">
+      <DependentUpon>Presentacion2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion3Simple.resx">
+      <DependentUpon>Presentacion3Simple.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
