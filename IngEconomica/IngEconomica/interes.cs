@@ -100,7 +100,8 @@ namespace IngEconomica
                     }
                     if (cmbInteres.SelectedItem.Equals("Mensual") && cmbPeriodo.SelectedItem.Equals("Años"))
                     {
-                        i = i1 / 12;
+                        i2 = i1 / 100;
+                        i = i2 / 12;
                         n = n1;
                         I = P * i * n;
                         int N = dtgvResultados.Rows.Add();
@@ -124,9 +125,9 @@ namespace IngEconomica
                     }
                     if (cmbInteres.SelectedItem.Equals("Mensual") && cmbPeriodo.SelectedItem.Equals("Meses"))
                     {
-                        i = i1 / 12;
+                        i = i1 / 100;
                         n = n1;
-
+                        I = P * i * n;
                         int N = dtgvResultados.Rows.Add();
                         dtgvResultados.Rows[N].Cells[0].Value = P;
                         dtgvResultados.Rows[N].Cells[1].Value = i;
