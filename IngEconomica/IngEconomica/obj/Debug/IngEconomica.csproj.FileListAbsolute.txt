@@ -13,3 +13,4 @@ C:\Users\DELL 5580\Desktop\Borrador\IngEconomica\IngEconomica\obj\Debug\IngEcono
 C:\Users\DELL 5580\Desktop\Borrador\ingEconomica\IngEconomica\obj\Debug\IngEconomica.Presentacion2.resources
 C:\Users\DELL 5580\Desktop\Borrador\ingEconomica\IngEconomica\obj\Debug\IngEconomica.intSimple.resources
 C:\Users\DELL 5580\Desktop\Borrador\ingEconomica\IngEconomica\obj\Debug\IngEconomica.Presentacion3Simple.resources
+C:\Users\DELL 5580\Desktop\Borrador\ingEconomica\IngEconomica\obj\Debug\IngEconomica.intCompuesto.resources

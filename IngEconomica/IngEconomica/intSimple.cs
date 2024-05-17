@@ -152,6 +152,53 @@ namespace IngEconomica
                         dtvgResultadosP.Rows[s].Cells[2].Value = n;
                         dtvgResultadosP.Rows[s].Cells[3].Value = p;
                     }
+
+                    if (cmbInteresP.SelectedItem.Equals("Mensual") || cmbPeriodoP.SelectedItem.Equals("Meses"))
+                    {
+                        i = i1 / 100;
+                        n = n1;
+                        p = f / (1 + (i * n));
+
+                        int s = dtgvResultados.Rows.Add();
+
+                        dtvgResultadosP.Rows[s].Cells[0].Value = f;
+                        dtvgResultadosP.Rows[s].Cells[1].Value = i;
+                        dtvgResultadosP.Rows[s].Cells[2].Value = n;
+                        dtvgResultadosP.Rows[s].Cells[3].Value = p;
+                    }
+
+                    if (cmbInteresP.SelectedItem.Equals("Anual") || cmbPeriodoP.SelectedItem.Equals("Meses"))
+                    {
+                        i = i1 / 100;
+                        n = n1 / 12;
+
+                        p = f / (1 + (i * n));
+
+                        int s = dtgvResultados.Rows.Add();
+
+                        dtvgResultadosP.Rows[s].Cells[0].Value = f;
+                        dtvgResultadosP.Rows[s].Cells[1].Value = i;
+                        dtvgResultadosP.Rows[s].Cells[2].Value = n;
+                        dtvgResultadosP.Rows[s].Cells[3].Value = p;
+                    }
+
+                    {
+
+                    if (cmbInteresP.SelectedItem.Equals("Mensual") || cmbPeriodoP.SelectedItem.Equals("Años"))
+                        {
+                            i = i1 / 100;
+                            n = n1 * 12;
+
+                            p = f / (1 + (i * n));
+
+                            int s = dtgvResultados.Rows.Add();
+
+                            dtvgResultadosP.Rows[s].Cells[0].Value = f;
+                            dtvgResultadosP.Rows[s].Cells[1].Value = i;
+                            dtvgResultadosP.Rows[s].Cells[2].Value = n;
+                            dtvgResultadosP.Rows[s].Cells[3].Value = p;
+                        }
+                    }
                 }
 
             }catch(FormatException x)

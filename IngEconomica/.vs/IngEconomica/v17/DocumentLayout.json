@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{79E01E89-5F9F-4841-8C72-3187D4F28A37}|IngEconomica\\IngEconomica.csproj|solutionrelative:ingeconomica\\intsimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79E01E89-5F9F-4841-8C72-3187D4F28A37}|IngEconomica\\IngEconomica.csproj|c:\\users\\dell 5580\\desktop\\borrador\\ingeconomica\\ingeconomica\\intsimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E01E89-5F9F-4841-8C72-3187D4F28A37}|IngEconomica\\IngEconomica.csproj|solutionrelative:ingeconomica\\intsimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79E01E89-5F9F-4841-8C72-3187D4F28A37}|IngEconomica\\IngEconomica.csproj|C:\\Users\\DELL 5580\\Desktop\\Borrador\\IngEconomica\\ingeconomica\\intcompuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79E01E89-5F9F-4841-8C72-3187D4F28A37}|IngEconomica\\IngEconomica.csproj|solutionrelative:ingeconomica\\intcompuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E01E89-5F9F-4841-8C72-3187D4F28A37}|IngEconomica\\IngEconomica.csproj|C:\\Users\\DELL 5580\\Desktop\\Borrador\\IngEconomica\\ingeconomica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{79E01E89-5F9F-4841-8C72-3187D4F28A37}|IngEconomica\\IngEconomica.csproj|solutionrelative:ingeconomica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E01E89-5F9F-4841-8C72-3187D4F28A37}|IngEconomica\\IngEconomica.csproj|c:\\users\\dell 5580\\desktop\\borrador\\ingeconomica\\ingeconomica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E01E89-5F9F-4841-8C72-3187D4F28A37}|IngEconomica\\IngEconomica.csproj|solutionrelative:ingeconomica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "intSimple.cs",
-              "DocumentMoniker": "C:\\Users\\DELL 5580\\Desktop\\Borrador\\IngEconomica\\IngEconomica\\intSimple.cs",
-              "RelativeDocumentMoniker": "IngEconomica\\intSimple.cs",
-              "ToolTip": "C:\\Users\\DELL 5580\\Desktop\\Borrador\\IngEconomica\\IngEconomica\\intSimple.cs",
-              "RelativeToolTip": "IngEconomica\\intSimple.cs",
-              "ViewState": "AQIAAIcAAAAAAAAAAAAAAIsAAABDAAAA",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 5580\\Desktop\\Borrador\\IngEconomica\\IngEconomica\\Form1.cs",
+              "RelativeDocumentMoniker": "IngEconomica\\Form1.cs",
+              "ToolTip": "C:\\Users\\DELL 5580\\Desktop\\Borrador\\IngEconomica\\IngEconomica\\Form1.cs",
+              "RelativeToolTip": "IngEconomica\\Form1.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAiwEYAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T22:54:20.326Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-05-17T23:16:24.088Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "intCompuesto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\DELL 5580\\Desktop\\Borrador\\IngEconomica\\IngEconomica\\intCompuesto.cs",
+              "RelativeDocumentMoniker": "IngEconomica\\intCompuesto.cs",
+              "ToolTip": "C:\\Users\\DELL 5580\\Desktop\\Borrador\\IngEconomica\\IngEconomica\\intCompuesto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "IngEconomica\\intCompuesto.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T23:01:47.905Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -43,7 +62,19 @@
               "ToolTip": "C:\\Users\\DELL 5580\\Desktop\\Borrador\\IngEconomica\\IngEconomica\\intSimple.cs [Dise\u00F1o]",
               "RelativeToolTip": "IngEconomica\\intSimple.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T23:50:18.024Z",
+              "WhenOpened": "2024-05-17T23:00:27.215Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\DELL 5580\\Desktop\\Borrador\\IngEconomica\\IngEconomica\\Form1.cs",
+              "RelativeDocumentMoniker": "IngEconomica\\Form1.cs",
+              "ToolTip": "C:\\Users\\DELL 5580\\Desktop\\Borrador\\IngEconomica\\IngEconomica\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "IngEconomica\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T23:00:14.848Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

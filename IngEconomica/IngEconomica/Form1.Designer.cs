@@ -30,38 +30,40 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pnlTitulo = new System.Windows.Forms.Panel();
-            this.pnlSideMenu = new System.Windows.Forms.Panel();
-            this.pnlSubMenuIndicadores = new System.Windows.Forms.Panel();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.pnlSubMenuAnualidades = new System.Windows.Forms.Panel();
-            this.btnAnualidadesDiferidas = new System.Windows.Forms.Button();
-            this.btnAnualidadesAnticipadas = new System.Windows.Forms.Button();
-            this.btnAnualidadesVencidas = new System.Windows.Forms.Button();
-            this.pnlSubMenuInteres = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.btnInteresSimple = new System.Windows.Forms.Button();
-            this.btnInteres2 = new System.Windows.Forms.Button();
-            this.pnlContenedor = new System.Windows.Forms.Panel();
-            this.btnIndicadores = new System.Windows.Forms.Button();
-            this.btnAnualidades = new System.Windows.Forms.Button();
-            this.btnInteres = new System.Windows.Forms.Button();
-            this.btnPresentacion = new System.Windows.Forms.PictureBox();
             this.btnRestaurar = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnMaximizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
+            this.pnlSideMenu = new System.Windows.Forms.Panel();
+            this.pnlSubMenuAnualidades = new System.Windows.Forms.Panel();
+            this.btnAnualidadesDiferidas = new System.Windows.Forms.Button();
+            this.btnAnualidadesAnticipadas = new System.Windows.Forms.Button();
+            this.btnAnualidadesVencidas = new System.Windows.Forms.Button();
+            this.btnAnualidades = new System.Windows.Forms.Button();
+            this.pnlSubMenuInteres = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.btnInteresSimple = new System.Windows.Forms.Button();
+            this.btnInteres2 = new System.Windows.Forms.Button();
+            this.btnInteres = new System.Windows.Forms.Button();
+            this.btnPresentacion = new System.Windows.Forms.PictureBox();
+            this.pnlContenedor = new System.Windows.Forms.Panel();
+            this.btnPerpetuas = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.pnlSubMenuIndicadores = new System.Windows.Forms.Panel();
             this.pnlTitulo.SuspendLayout();
-            this.pnlSideMenu.SuspendLayout();
-            this.pnlSubMenuIndicadores.SuspendLayout();
-            this.pnlSubMenuAnualidades.SuspendLayout();
-            this.pnlSubMenuInteres.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnPresentacion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
+            this.pnlSideMenu.SuspendLayout();
+            this.pnlSubMenuAnualidades.SuspendLayout();
+            this.pnlSubMenuInteres.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPresentacion)).BeginInit();
+            this.pnlSubMenuIndicadores.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlTitulo
@@ -77,297 +79,6 @@
             this.pnlTitulo.Size = new System.Drawing.Size(1300, 38);
             this.pnlTitulo.TabIndex = 0;
             this.pnlTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlTitulo_MouseDown);
-            // 
-            // pnlSideMenu
-            // 
-            this.pnlSideMenu.AutoScroll = true;
-            this.pnlSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.pnlSideMenu.Controls.Add(this.pnlSubMenuIndicadores);
-            this.pnlSideMenu.Controls.Add(this.btnIndicadores);
-            this.pnlSideMenu.Controls.Add(this.pnlSubMenuAnualidades);
-            this.pnlSideMenu.Controls.Add(this.btnAnualidades);
-            this.pnlSideMenu.Controls.Add(this.pnlSubMenuInteres);
-            this.pnlSideMenu.Controls.Add(this.btnInteres);
-            this.pnlSideMenu.Controls.Add(this.btnPresentacion);
-            this.pnlSideMenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlSideMenu.Location = new System.Drawing.Point(0, 38);
-            this.pnlSideMenu.Name = "pnlSideMenu";
-            this.pnlSideMenu.Size = new System.Drawing.Size(200, 612);
-            this.pnlSideMenu.TabIndex = 1;
-            // 
-            // pnlSubMenuIndicadores
-            // 
-            this.pnlSubMenuIndicadores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.pnlSubMenuIndicadores.Controls.Add(this.button9);
-            this.pnlSubMenuIndicadores.Controls.Add(this.button10);
-            this.pnlSubMenuIndicadores.Controls.Add(this.button11);
-            this.pnlSubMenuIndicadores.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlSubMenuIndicadores.Location = new System.Drawing.Point(0, 441);
-            this.pnlSubMenuIndicadores.Name = "pnlSubMenuIndicadores";
-            this.pnlSubMenuIndicadores.Size = new System.Drawing.Size(200, 127);
-            this.pnlSubMenuIndicadores.TabIndex = 6;
-            // 
-            // button9
-            // 
-            this.button9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.LightGray;
-            this.button9.Location = new System.Drawing.Point(0, 80);
-            this.button9.Name = "button9";
-            this.button9.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button9.Size = new System.Drawing.Size(200, 40);
-            this.button9.TabIndex = 2;
-            this.button9.Text = "button9";
-            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.LightGray;
-            this.button10.Location = new System.Drawing.Point(0, 40);
-            this.button10.Name = "button10";
-            this.button10.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button10.Size = new System.Drawing.Size(200, 40);
-            this.button10.TabIndex = 1;
-            this.button10.Text = "button10";
-            this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.LightGray;
-            this.button11.Location = new System.Drawing.Point(0, 0);
-            this.button11.Name = "button11";
-            this.button11.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button11.Size = new System.Drawing.Size(200, 40);
-            this.button11.TabIndex = 0;
-            this.button11.Text = "button11";
-            this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // pnlSubMenuAnualidades
-            // 
-            this.pnlSubMenuAnualidades.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.pnlSubMenuAnualidades.Controls.Add(this.btnAnualidadesDiferidas);
-            this.pnlSubMenuAnualidades.Controls.Add(this.btnAnualidadesAnticipadas);
-            this.pnlSubMenuAnualidades.Controls.Add(this.btnAnualidadesVencidas);
-            this.pnlSubMenuAnualidades.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlSubMenuAnualidades.Location = new System.Drawing.Point(0, 275);
-            this.pnlSubMenuAnualidades.Name = "pnlSubMenuAnualidades";
-            this.pnlSubMenuAnualidades.Size = new System.Drawing.Size(200, 127);
-            this.pnlSubMenuAnualidades.TabIndex = 4;
-            // 
-            // btnAnualidadesDiferidas
-            // 
-            this.btnAnualidadesDiferidas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnAnualidadesDiferidas.FlatAppearance.BorderSize = 0;
-            this.btnAnualidadesDiferidas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
-            this.btnAnualidadesDiferidas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAnualidadesDiferidas.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnualidadesDiferidas.ForeColor = System.Drawing.Color.LightGray;
-            this.btnAnualidadesDiferidas.Location = new System.Drawing.Point(0, 80);
-            this.btnAnualidadesDiferidas.Name = "btnAnualidadesDiferidas";
-            this.btnAnualidadesDiferidas.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnAnualidadesDiferidas.Size = new System.Drawing.Size(200, 40);
-            this.btnAnualidadesDiferidas.TabIndex = 2;
-            this.btnAnualidadesDiferidas.Text = "Diferidas";
-            this.btnAnualidadesDiferidas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAnualidadesDiferidas.UseVisualStyleBackColor = true;
-            this.btnAnualidadesDiferidas.Click += new System.EventHandler(this.btnAnualidadesDiferidas_Click);
-            // 
-            // btnAnualidadesAnticipadas
-            // 
-            this.btnAnualidadesAnticipadas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnAnualidadesAnticipadas.FlatAppearance.BorderSize = 0;
-            this.btnAnualidadesAnticipadas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
-            this.btnAnualidadesAnticipadas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAnualidadesAnticipadas.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnualidadesAnticipadas.ForeColor = System.Drawing.Color.LightGray;
-            this.btnAnualidadesAnticipadas.Location = new System.Drawing.Point(0, 40);
-            this.btnAnualidadesAnticipadas.Name = "btnAnualidadesAnticipadas";
-            this.btnAnualidadesAnticipadas.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnAnualidadesAnticipadas.Size = new System.Drawing.Size(200, 40);
-            this.btnAnualidadesAnticipadas.TabIndex = 1;
-            this.btnAnualidadesAnticipadas.Text = "Anticipadas";
-            this.btnAnualidadesAnticipadas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAnualidadesAnticipadas.UseVisualStyleBackColor = true;
-            this.btnAnualidadesAnticipadas.Click += new System.EventHandler(this.btnAnualidadesAnticipadas_Click);
-            // 
-            // btnAnualidadesVencidas
-            // 
-            this.btnAnualidadesVencidas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnAnualidadesVencidas.FlatAppearance.BorderSize = 0;
-            this.btnAnualidadesVencidas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
-            this.btnAnualidadesVencidas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAnualidadesVencidas.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnualidadesVencidas.ForeColor = System.Drawing.Color.LightGray;
-            this.btnAnualidadesVencidas.Location = new System.Drawing.Point(0, 0);
-            this.btnAnualidadesVencidas.Name = "btnAnualidadesVencidas";
-            this.btnAnualidadesVencidas.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnAnualidadesVencidas.Size = new System.Drawing.Size(200, 40);
-            this.btnAnualidadesVencidas.TabIndex = 0;
-            this.btnAnualidadesVencidas.Text = "Vencidas";
-            this.btnAnualidadesVencidas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAnualidadesVencidas.UseVisualStyleBackColor = true;
-            this.btnAnualidadesVencidas.Click += new System.EventHandler(this.btnAnualidadesVencidas_Click);
-            // 
-            // pnlSubMenuInteres
-            // 
-            this.pnlSubMenuInteres.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
-            this.pnlSubMenuInteres.Controls.Add(this.button3);
-            this.pnlSubMenuInteres.Controls.Add(this.btnInteresSimple);
-            this.pnlSubMenuInteres.Controls.Add(this.btnInteres2);
-            this.pnlSubMenuInteres.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlSubMenuInteres.Location = new System.Drawing.Point(0, 109);
-            this.pnlSubMenuInteres.Name = "pnlSubMenuInteres";
-            this.pnlSubMenuInteres.Size = new System.Drawing.Size(200, 127);
-            this.pnlSubMenuInteres.TabIndex = 2;
-            // 
-            // button3
-            // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.LightGray;
-            this.button3.Location = new System.Drawing.Point(0, 80);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(200, 40);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Interes Compuesto";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // btnInteresSimple
-            // 
-            this.btnInteresSimple.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnInteresSimple.FlatAppearance.BorderSize = 0;
-            this.btnInteresSimple.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
-            this.btnInteresSimple.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInteresSimple.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInteresSimple.ForeColor = System.Drawing.Color.LightGray;
-            this.btnInteresSimple.Location = new System.Drawing.Point(0, 40);
-            this.btnInteresSimple.Name = "btnInteresSimple";
-            this.btnInteresSimple.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnInteresSimple.Size = new System.Drawing.Size(200, 40);
-            this.btnInteresSimple.TabIndex = 1;
-            this.btnInteresSimple.Text = "Interes Simple";
-            this.btnInteresSimple.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInteresSimple.UseVisualStyleBackColor = true;
-            this.btnInteresSimple.Click += new System.EventHandler(this.btnInteresSimple_Click);
-            // 
-            // btnInteres2
-            // 
-            this.btnInteres2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnInteres2.FlatAppearance.BorderSize = 0;
-            this.btnInteres2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
-            this.btnInteres2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInteres2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInteres2.ForeColor = System.Drawing.Color.LightGray;
-            this.btnInteres2.Location = new System.Drawing.Point(0, 0);
-            this.btnInteres2.Name = "btnInteres2";
-            this.btnInteres2.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btnInteres2.Size = new System.Drawing.Size(200, 40);
-            this.btnInteres2.TabIndex = 0;
-            this.btnInteres2.Text = "Interes";
-            this.btnInteres2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInteres2.UseVisualStyleBackColor = true;
-            this.btnInteres2.Click += new System.EventHandler(this.btnInteres2_Click);
-            // 
-            // pnlContenedor
-            // 
-            this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlContenedor.Location = new System.Drawing.Point(200, 38);
-            this.pnlContenedor.Name = "pnlContenedor";
-            this.pnlContenedor.Size = new System.Drawing.Size(1100, 612);
-            this.pnlContenedor.TabIndex = 2;
-            this.pnlContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.btnInteresCompuesto_Paint);
-            // 
-            // btnIndicadores
-            // 
-            this.btnIndicadores.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnIndicadores.FlatAppearance.BorderSize = 0;
-            this.btnIndicadores.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
-            this.btnIndicadores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIndicadores.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIndicadores.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnIndicadores.Image = ((System.Drawing.Image)(resources.GetObject("btnIndicadores.Image")));
-            this.btnIndicadores.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnIndicadores.Location = new System.Drawing.Point(0, 402);
-            this.btnIndicadores.Name = "btnIndicadores";
-            this.btnIndicadores.Padding = new System.Windows.Forms.Padding(10, 0, 50, 0);
-            this.btnIndicadores.Size = new System.Drawing.Size(200, 39);
-            this.btnIndicadores.TabIndex = 5;
-            this.btnIndicadores.Text = "Indicadores";
-            this.btnIndicadores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIndicadores.UseVisualStyleBackColor = true;
-            // 
-            // btnAnualidades
-            // 
-            this.btnAnualidades.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnAnualidades.FlatAppearance.BorderSize = 0;
-            this.btnAnualidades.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
-            this.btnAnualidades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAnualidades.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnualidades.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnAnualidades.Image = ((System.Drawing.Image)(resources.GetObject("btnAnualidades.Image")));
-            this.btnAnualidades.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAnualidades.Location = new System.Drawing.Point(0, 236);
-            this.btnAnualidades.Name = "btnAnualidades";
-            this.btnAnualidades.Padding = new System.Windows.Forms.Padding(10, 0, 50, 0);
-            this.btnAnualidades.Size = new System.Drawing.Size(200, 39);
-            this.btnAnualidades.TabIndex = 3;
-            this.btnAnualidades.Text = "Anualidades";
-            this.btnAnualidades.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAnualidades.UseVisualStyleBackColor = true;
-            this.btnAnualidades.Click += new System.EventHandler(this.btnAnualidades_Click);
-            // 
-            // btnInteres
-            // 
-            this.btnInteres.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnInteres.FlatAppearance.BorderSize = 0;
-            this.btnInteres.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
-            this.btnInteres.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInteres.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInteres.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnInteres.Image = ((System.Drawing.Image)(resources.GetObject("btnInteres.Image")));
-            this.btnInteres.Location = new System.Drawing.Point(0, 70);
-            this.btnInteres.Name = "btnInteres";
-            this.btnInteres.Padding = new System.Windows.Forms.Padding(10, 0, 30, 0);
-            this.btnInteres.Size = new System.Drawing.Size(200, 39);
-            this.btnInteres.TabIndex = 1;
-            this.btnInteres.Text = "Interes";
-            this.btnInteres.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInteres.UseVisualStyleBackColor = true;
-            this.btnInteres.Click += new System.EventHandler(this.btnInteres_Click);
-            // 
-            // btnPresentacion
-            // 
-            this.btnPresentacion.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPresentacion.Image = global::IngEconomica.Properties.Resources.pngwing1;
-            this.btnPresentacion.Location = new System.Drawing.Point(0, 0);
-            this.btnPresentacion.Name = "btnPresentacion";
-            this.btnPresentacion.Size = new System.Drawing.Size(200, 70);
-            this.btnPresentacion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnPresentacion.TabIndex = 0;
-            this.btnPresentacion.TabStop = false;
-            this.btnPresentacion.Click += new System.EventHandler(this.btnPresentacion_Click);
             // 
             // btnRestaurar
             // 
@@ -422,6 +133,333 @@
             this.btnCerrar.TabStop = false;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
+            // pnlSideMenu
+            // 
+            this.pnlSideMenu.AutoScroll = true;
+            this.pnlSideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.pnlSideMenu.Controls.Add(this.pnlSubMenuIndicadores);
+            this.pnlSideMenu.Controls.Add(this.button1);
+            this.pnlSideMenu.Controls.Add(this.pnlSubMenuAnualidades);
+            this.pnlSideMenu.Controls.Add(this.btnAnualidades);
+            this.pnlSideMenu.Controls.Add(this.pnlSubMenuInteres);
+            this.pnlSideMenu.Controls.Add(this.btnInteres);
+            this.pnlSideMenu.Controls.Add(this.btnPresentacion);
+            this.pnlSideMenu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlSideMenu.Location = new System.Drawing.Point(0, 38);
+            this.pnlSideMenu.Name = "pnlSideMenu";
+            this.pnlSideMenu.Size = new System.Drawing.Size(200, 612);
+            this.pnlSideMenu.TabIndex = 1;
+            // 
+            // pnlSubMenuAnualidades
+            // 
+            this.pnlSubMenuAnualidades.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.pnlSubMenuAnualidades.Controls.Add(this.btnPerpetuas);
+            this.pnlSubMenuAnualidades.Controls.Add(this.btnAnualidadesDiferidas);
+            this.pnlSubMenuAnualidades.Controls.Add(this.btnAnualidadesAnticipadas);
+            this.pnlSubMenuAnualidades.Controls.Add(this.btnAnualidadesVencidas);
+            this.pnlSubMenuAnualidades.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlSubMenuAnualidades.Location = new System.Drawing.Point(0, 275);
+            this.pnlSubMenuAnualidades.Name = "pnlSubMenuAnualidades";
+            this.pnlSubMenuAnualidades.Size = new System.Drawing.Size(183, 153);
+            this.pnlSubMenuAnualidades.TabIndex = 4;
+            // 
+            // btnAnualidadesDiferidas
+            // 
+            this.btnAnualidadesDiferidas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAnualidadesDiferidas.FlatAppearance.BorderSize = 0;
+            this.btnAnualidadesDiferidas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
+            this.btnAnualidadesDiferidas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAnualidadesDiferidas.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAnualidadesDiferidas.ForeColor = System.Drawing.Color.LightGray;
+            this.btnAnualidadesDiferidas.Location = new System.Drawing.Point(0, 80);
+            this.btnAnualidadesDiferidas.Name = "btnAnualidadesDiferidas";
+            this.btnAnualidadesDiferidas.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnAnualidadesDiferidas.Size = new System.Drawing.Size(183, 40);
+            this.btnAnualidadesDiferidas.TabIndex = 2;
+            this.btnAnualidadesDiferidas.Text = "Diferidas";
+            this.btnAnualidadesDiferidas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAnualidadesDiferidas.UseVisualStyleBackColor = true;
+            this.btnAnualidadesDiferidas.Click += new System.EventHandler(this.btnAnualidadesDiferidas_Click);
+            // 
+            // btnAnualidadesAnticipadas
+            // 
+            this.btnAnualidadesAnticipadas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAnualidadesAnticipadas.FlatAppearance.BorderSize = 0;
+            this.btnAnualidadesAnticipadas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
+            this.btnAnualidadesAnticipadas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAnualidadesAnticipadas.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAnualidadesAnticipadas.ForeColor = System.Drawing.Color.LightGray;
+            this.btnAnualidadesAnticipadas.Location = new System.Drawing.Point(0, 40);
+            this.btnAnualidadesAnticipadas.Name = "btnAnualidadesAnticipadas";
+            this.btnAnualidadesAnticipadas.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnAnualidadesAnticipadas.Size = new System.Drawing.Size(183, 40);
+            this.btnAnualidadesAnticipadas.TabIndex = 1;
+            this.btnAnualidadesAnticipadas.Text = "Anticipadas";
+            this.btnAnualidadesAnticipadas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAnualidadesAnticipadas.UseVisualStyleBackColor = true;
+            this.btnAnualidadesAnticipadas.Click += new System.EventHandler(this.btnAnualidadesAnticipadas_Click);
+            // 
+            // btnAnualidadesVencidas
+            // 
+            this.btnAnualidadesVencidas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAnualidadesVencidas.FlatAppearance.BorderSize = 0;
+            this.btnAnualidadesVencidas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
+            this.btnAnualidadesVencidas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAnualidadesVencidas.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAnualidadesVencidas.ForeColor = System.Drawing.Color.LightGray;
+            this.btnAnualidadesVencidas.Location = new System.Drawing.Point(0, 0);
+            this.btnAnualidadesVencidas.Name = "btnAnualidadesVencidas";
+            this.btnAnualidadesVencidas.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnAnualidadesVencidas.Size = new System.Drawing.Size(183, 40);
+            this.btnAnualidadesVencidas.TabIndex = 0;
+            this.btnAnualidadesVencidas.Text = "Vencidas";
+            this.btnAnualidadesVencidas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAnualidadesVencidas.UseVisualStyleBackColor = true;
+            this.btnAnualidadesVencidas.Click += new System.EventHandler(this.btnAnualidadesVencidas_Click);
+            // 
+            // btnAnualidades
+            // 
+            this.btnAnualidades.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAnualidades.FlatAppearance.BorderSize = 0;
+            this.btnAnualidades.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
+            this.btnAnualidades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAnualidades.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAnualidades.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnAnualidades.Image = ((System.Drawing.Image)(resources.GetObject("btnAnualidades.Image")));
+            this.btnAnualidades.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAnualidades.Location = new System.Drawing.Point(0, 236);
+            this.btnAnualidades.Name = "btnAnualidades";
+            this.btnAnualidades.Padding = new System.Windows.Forms.Padding(10, 0, 35, 0);
+            this.btnAnualidades.Size = new System.Drawing.Size(183, 39);
+            this.btnAnualidades.TabIndex = 3;
+            this.btnAnualidades.Text = "Anualidades";
+            this.btnAnualidades.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAnualidades.UseVisualStyleBackColor = true;
+            this.btnAnualidades.Click += new System.EventHandler(this.btnAnualidades_Click);
+            // 
+            // pnlSubMenuInteres
+            // 
+            this.pnlSubMenuInteres.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.pnlSubMenuInteres.Controls.Add(this.button3);
+            this.pnlSubMenuInteres.Controls.Add(this.btnInteresSimple);
+            this.pnlSubMenuInteres.Controls.Add(this.btnInteres2);
+            this.pnlSubMenuInteres.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlSubMenuInteres.Location = new System.Drawing.Point(0, 109);
+            this.pnlSubMenuInteres.Name = "pnlSubMenuInteres";
+            this.pnlSubMenuInteres.Size = new System.Drawing.Size(183, 127);
+            this.pnlSubMenuInteres.TabIndex = 2;
+            // 
+            // button3
+            // 
+            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.LightGray;
+            this.button3.Location = new System.Drawing.Point(0, 80);
+            this.button3.Name = "button3";
+            this.button3.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.button3.Size = new System.Drawing.Size(183, 40);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "Interes Compuesto";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // btnInteresSimple
+            // 
+            this.btnInteresSimple.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnInteresSimple.FlatAppearance.BorderSize = 0;
+            this.btnInteresSimple.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
+            this.btnInteresSimple.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInteresSimple.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInteresSimple.ForeColor = System.Drawing.Color.LightGray;
+            this.btnInteresSimple.Location = new System.Drawing.Point(0, 40);
+            this.btnInteresSimple.Name = "btnInteresSimple";
+            this.btnInteresSimple.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnInteresSimple.Size = new System.Drawing.Size(183, 40);
+            this.btnInteresSimple.TabIndex = 1;
+            this.btnInteresSimple.Text = "Interes Simple";
+            this.btnInteresSimple.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInteresSimple.UseVisualStyleBackColor = true;
+            this.btnInteresSimple.Click += new System.EventHandler(this.btnInteresSimple_Click);
+            // 
+            // btnInteres2
+            // 
+            this.btnInteres2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnInteres2.FlatAppearance.BorderSize = 0;
+            this.btnInteres2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
+            this.btnInteres2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInteres2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInteres2.ForeColor = System.Drawing.Color.LightGray;
+            this.btnInteres2.Location = new System.Drawing.Point(0, 0);
+            this.btnInteres2.Name = "btnInteres2";
+            this.btnInteres2.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnInteres2.Size = new System.Drawing.Size(183, 40);
+            this.btnInteres2.TabIndex = 0;
+            this.btnInteres2.Text = "Interes";
+            this.btnInteres2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInteres2.UseVisualStyleBackColor = true;
+            this.btnInteres2.Click += new System.EventHandler(this.btnInteres2_Click);
+            // 
+            // btnInteres
+            // 
+            this.btnInteres.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnInteres.FlatAppearance.BorderSize = 0;
+            this.btnInteres.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
+            this.btnInteres.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInteres.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInteres.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnInteres.Image = ((System.Drawing.Image)(resources.GetObject("btnInteres.Image")));
+            this.btnInteres.Location = new System.Drawing.Point(0, 70);
+            this.btnInteres.Name = "btnInteres";
+            this.btnInteres.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.btnInteres.Size = new System.Drawing.Size(183, 39);
+            this.btnInteres.TabIndex = 1;
+            this.btnInteres.Text = "Interes";
+            this.btnInteres.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInteres.UseVisualStyleBackColor = true;
+            this.btnInteres.Click += new System.EventHandler(this.btnInteres_Click);
+            // 
+            // btnPresentacion
+            // 
+            this.btnPresentacion.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPresentacion.Image = global::IngEconomica.Properties.Resources.pngwing1;
+            this.btnPresentacion.Location = new System.Drawing.Point(0, 0);
+            this.btnPresentacion.Name = "btnPresentacion";
+            this.btnPresentacion.Size = new System.Drawing.Size(183, 70);
+            this.btnPresentacion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnPresentacion.TabIndex = 0;
+            this.btnPresentacion.TabStop = false;
+            this.btnPresentacion.Click += new System.EventHandler(this.btnPresentacion_Click);
+            // 
+            // pnlContenedor
+            // 
+            this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlContenedor.Location = new System.Drawing.Point(200, 38);
+            this.pnlContenedor.Name = "pnlContenedor";
+            this.pnlContenedor.Size = new System.Drawing.Size(1100, 612);
+            this.pnlContenedor.TabIndex = 2;
+            this.pnlContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.btnInteresCompuesto_Paint);
+            // 
+            // btnPerpetuas
+            // 
+            this.btnPerpetuas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPerpetuas.FlatAppearance.BorderSize = 0;
+            this.btnPerpetuas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
+            this.btnPerpetuas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPerpetuas.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPerpetuas.ForeColor = System.Drawing.Color.LightGray;
+            this.btnPerpetuas.Location = new System.Drawing.Point(0, 120);
+            this.btnPerpetuas.Name = "btnPerpetuas";
+            this.btnPerpetuas.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnPerpetuas.Size = new System.Drawing.Size(183, 40);
+            this.btnPerpetuas.TabIndex = 3;
+            this.btnPerpetuas.Text = "Perpetuas";
+            this.btnPerpetuas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPerpetuas.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Gainsboro;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.Location = new System.Drawing.Point(0, 428);
+            this.button1.Name = "button1";
+            this.button1.Padding = new System.Windows.Forms.Padding(10, 0, 45, 0);
+            this.button1.Size = new System.Drawing.Size(183, 39);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Indicadores";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.LightGray;
+            this.button6.Location = new System.Drawing.Point(0, 0);
+            this.button6.Name = "button6";
+            this.button6.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.button6.Size = new System.Drawing.Size(183, 40);
+            this.button6.TabIndex = 0;
+            this.button6.Text = "button1";
+            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.LightGray;
+            this.button5.Location = new System.Drawing.Point(0, 40);
+            this.button5.Name = "button5";
+            this.button5.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.button5.Size = new System.Drawing.Size(183, 40);
+            this.button5.TabIndex = 1;
+            this.button5.Text = "button2";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.LightGray;
+            this.button4.Location = new System.Drawing.Point(0, 80);
+            this.button4.Name = "button4";
+            this.button4.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.button4.Size = new System.Drawing.Size(183, 40);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "button3";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(235)))), ((int)(((byte)(103)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.LightGray;
+            this.button2.Location = new System.Drawing.Point(0, 120);
+            this.button2.Name = "button2";
+            this.button2.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.button2.Size = new System.Drawing.Size(183, 32);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "button4";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // pnlSubMenuIndicadores
+            // 
+            this.pnlSubMenuIndicadores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
+            this.pnlSubMenuIndicadores.Controls.Add(this.button2);
+            this.pnlSubMenuIndicadores.Controls.Add(this.button4);
+            this.pnlSubMenuIndicadores.Controls.Add(this.button5);
+            this.pnlSubMenuIndicadores.Controls.Add(this.button6);
+            this.pnlSubMenuIndicadores.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlSubMenuIndicadores.Location = new System.Drawing.Point(0, 467);
+            this.pnlSubMenuIndicadores.Name = "pnlSubMenuIndicadores";
+            this.pnlSubMenuIndicadores.Size = new System.Drawing.Size(183, 164);
+            this.pnlSubMenuIndicadores.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -435,15 +473,15 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.pnlTitulo.ResumeLayout(false);
-            this.pnlSideMenu.ResumeLayout(false);
-            this.pnlSubMenuIndicadores.ResumeLayout(false);
-            this.pnlSubMenuAnualidades.ResumeLayout(false);
-            this.pnlSubMenuInteres.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.btnPresentacion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMaximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
+            this.pnlSideMenu.ResumeLayout(false);
+            this.pnlSubMenuAnualidades.ResumeLayout(false);
+            this.pnlSubMenuInteres.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnPresentacion)).EndInit();
+            this.pnlSubMenuIndicadores.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -459,11 +497,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnInteresSimple;
         private System.Windows.Forms.Button btnInteres2;
-        private System.Windows.Forms.Panel pnlSubMenuIndicadores;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button btnIndicadores;
         private System.Windows.Forms.Panel pnlSubMenuAnualidades;
         private System.Windows.Forms.Button btnAnualidadesDiferidas;
         private System.Windows.Forms.Button btnAnualidadesAnticipadas;
@@ -473,6 +506,13 @@
         private System.Windows.Forms.PictureBox btnRestaurar;
         private System.Windows.Forms.PictureBox btnMinimizar;
         private System.Windows.Forms.PictureBox btnMaximizar;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnPerpetuas;
+        private System.Windows.Forms.Panel pnlSubMenuIndicadores;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }
 
